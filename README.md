@@ -1,0 +1,5 @@
+Online bus ticket reservation, the goal of this mini project is to save the time of people who are standing in queue to book and cancel ticket. And also for providing fast transaction to people without any error in calculation, bill generation etc… by replacing paper work. This project ensures the implementation of online reservation by keeping all records of users who are using it.
+This project has three modules for users. First module displays the availability of buses for booking ticket, second module for cancelling the booked ticket and third module to view the login history (i.e. booked and cancelled ticket details) of that particular user.
+1. First module books the ticket by assigning the data to ticket by booking code ‘1’ or user code.
+2. Second module cancels the booked ticked by replacing the booking code ‘1’ or user code by cancellation code ‘-1’.
+3. Third module displays the history of user by calling that particular function which stores the booking and cancellation ticket information in file of that particular user.
